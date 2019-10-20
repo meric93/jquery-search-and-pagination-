@@ -1,0 +1,549 @@
+<DOCHTYPE>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+       <link href="font/css/font-awesome.css" rel="stylesheet">
+
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <title>p</title>
+
+
+    <style>
+      
+
+      body{
+
+      
+      }
+
+
+      /* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.list-group-item{
+   border:1px solid  dodgerblue;
+   font-weight: bold;
+  padding: 20px;
+  margin-bottom: 10px;
+  color:#8395a7 ;
+
+ 
+}
+
+.list-group-item:hover{
+
+ transition: 0.5; 
+ background:dodgerblue;
+ color: #fff;
+
+}
+
+    </style>
+  </head>
+
+
+
+
+  <body>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</div>
+
+
+<div class="main">
+  
+  <!-- Actual search box -->
+  <!-- Another variation with a button -->
+  <div class="input-group">
+    <input type="text"  id="aramakutusu"  class="form-control" placeholder="Search">
+    <div class="input-group-append">
+      <button  onclick="search()" class="btn btn-secondary " type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+  
+
+  
+</div>
+
+
+
+<div style="padding: 37px">
+<div class="list-group" id="list">
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+    <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius denemet.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+    <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius denemet.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+    <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius denemet.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+    <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius denemet.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1"> bilal Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+  
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+  <a href="#" class="list-group-item list-group-item-action ">
+    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+  </a>
+
+
+</div>
+
+<br>
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item" style="display: none;">
+      <a class="page-link" href="javascript:void(0)" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+
+
+  </ul>
+</nav >
+</div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+    <script>
+      
+
+
+
+   function search() {
+
+
+
+     var a= document.getElementById("aramakutusu").value;
+         if (a != "" ) {
+    
+  var e, t, n, a, l;
+  for (e = document.getElementById("aramakutusu").value.toUpperCase(), t = document.getElementById("list").getElementsByTagName("a"), l = 0; l < t.length; l++) {
+    t[l].style.display = "none", n = t[l].getElementsByTagName("p");
+    for (var m = 0; m < n.length; m++)
+      if ((a = t[l].getElementsByTagName("p")[m]) && a.innerHTML.toUpperCase().indexOf(e) > -1) {
+        t[l].style.display = "";
+        
+      }
+  }
+
+   $(".pagination").hide();
+
+
+ }
+
+}
+
+
+
+'use strict'
+
+
+
+
+
+  var numberPageItems = $('#list .list-group-item').length;
+
+  var limitPerPage= 7;
+
+ $('#list .list-group-item:gt('+(limitPerPage - 1) +')').hide();
+
+ var totalPages =Math.round(numberPageItems / limitPerPage);
+
+ $(".pagination").append("<li class='page-item active'><a class='page-link' href='javscript:void(0'>"+1+"</a></li>");
+
+ for( var i= 2;  i<= totalPages; i++){
+
+
+$(".pagination").append("<li class='page-item'><a href='javascript:void(0')' class='page-link'>"+i+"</a></li> ");
+
+ }
+
+
+
+$(".pagination li.page-item").on("click",function(){
+
+
+
+if($(this).hasClass('active')){
+
+  return false;
+
+}
+
+else{
+
+  var currentPage = $(this).index();
+  $(".pagination li").removeClass('active');
+$(this).addClass('active');
+$("#list .list-group-item").hide();
+
+var grandTotal= limitPerPage * currentPage;
+
+for( var i = grandTotal - limitPerPage; i < grandTotal; i++ ){
+
+
+  $("#list .list-group-item:eq("+i+")").show();
+}
+
+}
+
+});
+
+
+ 
+
+
+
+
+
+
+    </script>
+  </body>
+</html>
